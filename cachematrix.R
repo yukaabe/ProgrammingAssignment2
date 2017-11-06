@@ -61,9 +61,10 @@ cacheSolve <- function(x, ...) {
 {
   inverse_matrix <- solve(data, ...)
   x$set_inverse(inverse_matrix)
+   inverse_matrix
   
 }
-  inverse_matrix 
+   
 }
 
 
